@@ -121,3 +121,192 @@ body {
 /*
 ** topbar 结束
 */
+
+/*
+** header 开始
+*/
+
+.header {
+	position: relative;
+	height: 100px;
+	border: 1px solid red;
+}
+
+.header .header-logo {
+	float:left;
+	margin-right: 7px;
+	margin-top: 22px;
+}
+
+.header .header-logo .logo {
+	display: block;
+	width: 55px;
+	height: 55px;
+	background: #ff6700 url(./images/header/mi-logo.png) no-repeat 50% 50%;
+	text-indent: -9999px;
+}
+
+.header .header-nav {
+	float: left;
+	width: 850px;
+}
+
+.header .header-nav .nav-list {
+	width: 820px;
+	height: 88px;
+	margin: 0;
+	padding: 12px 0 0 30px;
+	font-size: 16px;
+	color: #333;
+}
+
+.header .header-nav .nav-first {
+	display: inline-block;
+	width: 127px;
+	padding-right: 15px;
+	visibility: hidden;
+}
+
+.header .header-nav .nav-first a {
+	display: block;
+	padding: 26px 0 38px;
+	text-align: right;
+}
+
+.header .header-nav .nav-item {
+	display: inline-block;
+}
+
+.header .header-nav .nav-item a {
+	display: block;
+	padding: 26px 8px 38px;
+	text-align: center;
+}
+
+.header .header-nav .nav-item a:hover {
+	color: #ff6700;
+}
+
+.header .header-search {
+	float: right;
+	width: 296px;
+	margin-top: 25px;
+	z-index: 10;
+}
+
+.header .header-search .search-form {
+	position: relative;
+	width: 296px;
+	height: 50px;
+}
+
+.header .header-search .search-text {
+	position: absolute;
+	top: 0;
+	right: 51px;
+	width: 223px;
+	height: 48px;
+	padding: 0 10px;
+	border: 1px solid #e0e0e0;
+	font-size: 14px;
+	line-height: 48px;
+	outline: 0;
+	-webkit-transition: all .2s;
+	transition: all .2s;
+}
+
+.header .header-search .search-form:hover .search-text {
+	border-color: #b0b0b0;
+}
+
+.header .header-search .submit {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 52px;
+	height: 50px;
+	font-size: 24px;
+	color: #616161;
+	line-height: 50px;
+	border: 1px solid #e0e0e0;
+	background-color: #fff;
+	outline: 0;
+	-webkit-transition: all .2s;
+	transition: all .2s;
+}
+
+.header .header-search .search-form:hover .submit {
+	border-color: #b0b0b0;
+}
+
+.header .header-search .submit:hover {
+	color: #fff;
+	background-color: #ff6700;
+}
+
+.header .header-search .search-form:hover .submit:hover {
+	border-color: #ff6700;
+}
+
+.header .header-search .search-hot-words {
+	position: absolute;
+	top: 14px;
+	right: 62px;
+	text-align: center;
+}
+
+.header .header-search .search-hot-words a {
+	display: inline-block;
+	margin-left: 5px;
+	padding: 0 5px;
+	color: #757575;
+	font-size: 12px;
+	background: #eee;
+	-webkit-transition: all .2s;
+	transition: all .2s;
+}
+
+.header .header-search .search-hot-words a:hover {
+	color: #fff;
+	background-color: #ff6700;
+}
+
+.header .header-search .select-list {
+	position: absolute;
+	display: none;
+	left: 0;
+	top: 50px;
+	width: 243px;
+	border: 1px solid #ff6700;
+	border-top: 0;
+	background: #fff;
+}
+
+.header .select-list ul a {
+	position: relative;
+	display: block;
+	padding: 6px 15px;
+	font-size: 12px;
+	color: #424242;
+}
+
+.header .select-list ul a:hover {
+	background-color: #fafafa;
+}
+
+.header .select-list ul a span:first {
+	position: absolute;
+	left: 0;
+	top: 6px;
+}
+
+.header .select-list ul a span:last-child {
+	position: absolute;
+	top: 6px;
+	right: 15px;
+	color: #b0b0b0;
+}
+
+/*
+** header 结束
+*/
