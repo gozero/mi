@@ -1,0 +1,24 @@
+body {
+	font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+	color: #333;
+	background-color: #fff;
+	min-width: 1226px;
+}
+
+/*
+** bar 开始
+*/
+
+.bar {
+	background: url(images/bar/cms_15051255536928_CIeOw.jpg) no-repeat center 0;
+}
+
+.bar a.bar-link {
+	display: block;
+	width: 100%;
+	height: 120px;
+}
+
+/*
+** bar 结束
+*/
