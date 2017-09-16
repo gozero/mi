@@ -22,3 +22,102 @@ body {
 /*
 ** bar 结束
 */
+
+/*
+** topbar 开始
+*/
+
+.topbar {
+	height: 40px;
+	font-size: 12px;
+	color: #b0b0b0;
+	background-color: #333;
+	border: 1px solid black;
+}
+
+.topbar .topbar-nav {
+	float: left;
+	height: 40px;
+	line-height: 40px;
+}
+
+.topbar li {
+	display: inline-block;
+}
+
+.topbar li a {
+	display: inline-block;
+	height: 40px;
+}
+
+.topbar li a:hover {
+	color: #fff;
+}
+
+.topbar .separator {
+	margin: 0 2px;
+	color: #424242;
+}
+
+.topbar .topbar-info {
+	float: right;
+	height: 40px;
+	line-height: 40px;
+}
+
+.topbar .topbar-cart {
+	position: relative;
+	float: right;
+	width: 120px;
+	height: 40px;
+	margin-left: 15px;
+	line-height: 40px;
+}
+
+.topbar .topbar-cart a {
+	display: block;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+
+.topbar .topbar-cart i {
+	margin-right: 2px;
+	font-size: 20px;
+	line-height: 20px;
+	vertical-align: -4px;
+}
+
+.topbar .topbar-cart span:last-child {
+	margin-left: -4px;
+}
+
+.topbar .topbar-cart-active {
+	color: #ff6700;
+	background-color: #fff;
+}
+
+.topbar .topbar-cart .cart-menu {
+	position: absolute;
+	display: none;
+	right: 0;
+	top: 40px;
+	width: 316px;
+	padding: 15px 0 0;
+	z-index: 20;
+	color: #424242;
+	background-color: #fff;
+	-webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.topbar .topbar-cart .cart-menu .loading {
+	padding: 20px 0;
+	margin: 5px 20px 20px;
+	text-align: center;
+	color: #;
+}
+
+/*
+** topbar 结束
+*/
