@@ -129,7 +129,6 @@ body {
 .header {
 	position: relative;
 	height: 100px;
-	border: 1px solid red;
 }
 
 .header .header-logo {
@@ -167,7 +166,7 @@ body {
 	visibility: hidden;
 }
 
-.header .header-nav .nav-first a {
+.header .header-nav .nav-first > a {
 	display: block;
 	padding: 26px 0 38px;
 	text-align: right;
@@ -177,13 +176,93 @@ body {
 	display: inline-block;
 }
 
-.header .header-nav .nav-item a {
+.header .header-nav .nav-item > a {
 	display: block;
 	padding: 26px 8px 38px;
 	text-align: center;
 }
 
-.header .header-nav .nav-item a:hover {
+.header .header-nav .nav-item > a:hover {
+	color: #ff6700;
+}
+
+.header .header-nav-menu {
+	position: absolute;
+	left: 0;
+	top: 100px;
+	display: none;
+	width: 100%;
+	height: 229px;
+	border-top: 1px solid #e0e0e0;
+}
+
+.header .header-nav-menu ul.nav-menu-list {
+	display: none;
+}
+
+.header .header-nav-menu-active {
+	-webkit-box-shadow: 0 3px 4px rgba(0,0,0,0.18);
+	box-shadow: 0 3px 4px rgba(0,0,0,0.18);
+	-webkit-transition: -webkit-box-shadow .2s;
+	transition: box-shadow .2s;
+}
+
+.header .header-nav-menu .nav-menu-item {
+	position: relative;
+	float: left;
+	width: 180px;
+	padding: 35px 12px 0;
+	font-size: 12px;
+	text-align: center;
+}
+
+
+.header .header-nav-menu li + li:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 35px;
+	width: 1px;
+	height: 100px;
+	background-color: #e0e0e0;
+}
+
+.header .header-nav-menu .nav-menu-item .flag {
+	position: absolute;
+	top: -1px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.header .header-nav-menu .nav-menu-item .flag span {
+	height: 18px;
+	padding: 1px 20px;
+	border: 1px solid #ff6700;
+	color: #ff6700;
+	line-height: 18px;
+}
+
+.header .header-nav-menu .nav-menu-item a.goods-img {
+	display: block;
+	width: 160px;
+	height: 110px;
+	margin: 0 auto 16px;
+}
+
+.header .header-nav-menu .nav-menu-item img {
+	width: 160px;
+	height: 110px;
+}
+
+.header .header-nav-menu .nav-menu-item .title a {
+	font-size: 12px;
+	font-weight: normal;
+	color: #333;
+}
+
+.header .header-nav-menu .nav-menu-item .price {
+	font-size: 12px;
 	color: #ff6700;
 }
 

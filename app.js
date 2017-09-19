@@ -6,6 +6,13 @@ $(document).ready(function() {
 		$(this).removeClass('topbar-cart-active').find('.cart-menu').slideUp(200)
 	})
 
+	// header 导航二级菜单
+	$('.header-nav .nav-item').hover(function() {
+		$(this).find('.header-nav-menu').show().addClass('header-nav-menu-active').find('ul').show()
+	}, function() {
+		$(this).find('.header-nav-menu').removeClass('header-nav-menu-active').hide().find('ul').hide()
+	})
+
 	// header 搜索框
 	$('.header .search-form .search-text').focus(function() {
 		$(this).css('border-color', '#ff6700').next().css('border-color', '#ff6700').next().fadeOut(200).next().slideDown(200)
