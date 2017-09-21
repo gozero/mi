@@ -13,6 +13,13 @@ $(document).ready(function() {
         $(this).find('.header-nav-menu').removeClass('header-nav-menu-active').hide().find('ul').hide()
     })
 
+    // header category 商品导航
+    $('.header .category-item a').hover(function() {
+        $(this).next().show()
+    }, function() {
+        $(this).next().hide()
+    })
+
     // header 搜索框
     $('.header .search-form .search-text').focus(function() {
         $(this).css('border-color', '#ff6700').next().css('border-color', '#ff6700').next().fadeOut(200).next().slideDown(200)
