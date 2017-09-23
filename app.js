@@ -14,10 +14,10 @@ $(document).ready(function() {
     })
 
     // header category 商品导航
-    $('.header .category-item a').hover(function() {
-        $(this).next().show()
+    $('.header .category-item').hover(function() {
+        $(this).find('.category-detail').show()
     }, function() {
-        $(this).next().hide()
+        $(this).find('.category-detail').hide()
     })
 
     // header 搜索框
