@@ -52,3 +52,31 @@ input[type="search"] {
     visibility: hidden;
     clear: both;
 }
+
+.row {
+    margin-left: -14px;
+}
+
+.row:after {
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.span4 {
+    float: left;
+    width: 234px;
+    margin-left: 14px;
+}
+
+.span-first {
+    margin-left: 0;
+}
+
+.span16 {
+    float: left;
+    width: 978px;
+    margin-left: 14px;
+}
