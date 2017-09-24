@@ -44,7 +44,7 @@ $(document).ready(function() {
     }, 3000)
 
     // home-container 轮播图, 左右箭头点击事件
-    $('.home-container .carousel-controls-direction').on('click', 'a', function(event) {
+    $('.home-container .home-goods-slider .carousel-controls-direction').on('click', 'a', function(event) {
         clearInterval(carouselTimer)
         var direction = $(this).attr('class')
         var $homeGoodsSlider = $(this).parents('.home-goods-slider')
@@ -68,12 +68,45 @@ $(document).ready(function() {
     })
 
     // home-container 轮播图, 小圆点点击事件
-    $('.home-container .carousel-controls-pager').on('click', 'a', function(event) {
+    $('.home-container .home-goods-slider .carousel-controls-pager').on('click', 'a', function(event) {
         if (!$(this).hasClass('pager-item-active')) {
             clearInterval(carouselTimer)
-            var index = $(this).attr('data-index')
+            var index = $(this).data('index')
             $(this).parents('.carousel-controls-pager').find('.pager-item').removeClass('pager-item-active').eq(index).addClass('pager-item-active')
             $(this).parents('.home-goods-slider').find('.carousel-viewport .slide-item').removeClass('slide-item-active').hide().eq(index).addClass('slide-item-active').fadeIn(1000)
+        }
+    })
+
+    // home-container 明星单品 轮播图 定时器
+    var startGoodsTimerFn = function() {
+        var $startGoodsDirection = $('.home-container .home-star-goods .carousel-controls-direction')
+        var direction = $startGoodsDirection.find('.disabled').data('direction')
+        $startGoodsDirection.find('.disabled').removeClass('disabled').siblings('a').addClass('disabled')
+        if (direction === 'prev') {
+            $startGoodsDirection.parents('.home-star-goods').find('.carousel-list').css('margin-left', '0px')
+        } else {
+            $startGoodsDirection.parents('.home-star-goods').find('.carousel-list').css('margin-left', '-1240px')
+        }
+    }
+    var startGoodsTimer = setInterval(startGoodsTimerFn, 4000)
+
+    $('.home-container .home-star-goods .carousel-controls-direction').hover(function() {
+        clearInterval(startGoodsTimer)
+    }, function() {
+        startGoodsTimer = setInterval(startGoodsTimerFn, 4000)
+    })
+
+    // home-container 明星单品 轮播图
+    $('.home-container .home-star-goods .carousel-controls-direction').on('click', 'a', function() {
+        var direction = $(this).data('direction')
+        if (!$(this).hasClass('disabled')) {
+            var $homeStarGoods = $(this).parents('.home-star-goods')
+            $(this).addClass('disabled').siblings('a').removeClass('disabled')
+            if (direction === 'prev') {
+                $homeStarGoods.find('.carousel-list').css('margin-left', '0px')
+            } else {
+                $homeStarGoods.find('.carousel-list').css('margin-left', '-1240px')
+            }
         }
     })
 })
