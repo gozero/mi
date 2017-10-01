@@ -1213,5 +1213,138 @@ body {
 
 
 /*
+** page-main recommend 开始
+*/
+
+.page-main .recommend {
+    position: relative;
+}
+
+.page-main .recommend .box-header .title {
+    height: 58px;
+    color: #333;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+}
+
+.page-main .recommend .box-header .carousel-controls-direction {
+    position: absolute;
+    top: 24px;
+    right: 0;
+}
+
+.page-main .recommend .carousel-controls-direction a {
+    display: inline-block;
+    width: 24px;
+    height: 16px;
+    padding: 3px 5px;
+    color: #b0b0b0;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    -webkit-transition: color .5s;
+    transition: color .5s;
+}
+
+.page-main .recommend .carousel-controls-direction a:hover {
+    color: #ff6700;
+}
+
+.page-main .recommend.carousel-controls-direction a.prev {
+    margin-right: -4px;
+}
+
+.page-main .recommend .carousel-controls-direction a.disabled {
+    color: #e0e0e0;
+}
+
+.page-main .recommend .carousel-controls-direction a.disabled:hover {
+    color: #e0e0e0;
+}
+
+.page-main .recommend .box-content {
+    width: 1226px;
+    overflow: hidden;
+    /*padding-bottom: 40px;*/
+}
+
+.page-main .recommend .carousel-wrapper {
+    overflow: hidden;
+}
+
+.page-main .recommend .carousel-wrapper .carousel-list {
+    width: 4960px;
+    overflow: hidden;
+    -webkit-transition: margin-left 0.5s ease;
+    transition: margin-left 0.5s ease;
+}
+
+.page-main .recommend .carousel-item {
+    z-index: 2;
+    float: left;
+    width: 234px;
+    padding-top: 20px;
+    margin-right: 14px;
+    margin-bottom: 20px;
+    text-align: center;
+    background: #fafafa;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.page-main .recommend .carousel-item:hover {
+    -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    -webkit-transform: translate3d(0, -2px, 0);
+    transform: translate3d(0, -2px, 0);
+}
+
+.page-main .recommend .carousel-item .goods-link {
+    display: block;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 22px;
+}
+
+.page-main .recommend .carousel-item img {
+    width: 160px;
+    height: 160px;
+}
+
+.page-main .recommend .carousel-item .title {
+    margin: 0 20px 3px;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.page-main .recommend .carousel-item .desc {
+    height: 18px;
+    padding-bottom: 20px;
+    margin: 0 20px 20px;
+    color: #b0b0b0;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.page-main .recommend .carousel-item .price {
+    margin: 10px 0;
+    color: #ff6709;
+}
+
+
+/*
+** page-main recommend 结束
+*/
+
+
+/*
 ** page-main 结束
 */

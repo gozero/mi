@@ -2,6 +2,7 @@ import './common.css'
 import './index.css'
 
 import goodsJsonData from './json/goods.json'
+import recommendData from './json/recommend.json'
 
 
 // DOM动态创建家电、智能、搭配、配件、周边
@@ -110,6 +111,30 @@ import goodsJsonData from './json/goods.json'
   }
 
 })(goodsJsonData);
+
+// 动态创建"为你推荐"DOM内容
+((data) => {
+  let recommendArr = []
+  recommendArr.push('<div class="carousel-wrapper">')
+  recommendArr.push('<ul class="carousel-list">')
+  for (let i = 0; i < data.length; i++) {
+    recommendArr.push('<li class="carousel-item">')
+    recommendArr.push('<a class="goods-link"><img src="' + data[i].imgSrc + '" alt="" /></a>')
+    recommendArr.push('<h3 class="title"><a>' + data[i].title + '</a></h3>')
+    recommendArr.push('<p class="price">' + data[i].price + '</p>')
+    recommendArr.push('<p class="desc">' + data[i].desc + '</p>')
+    recommendArr.push('</li>')
+  }
+  recommendArr.push('</ul>')
+  recommendArr.push('</div>')
+  let recommendInnerHtml = recommendArr.join('')
+  let recommend = document.getElementById('recommend')
+  let recommendBoxContent = recommend.getElementsByClassName('box-content')
+  if (recommendBoxContent.length) {
+    recommendBoxContent[0].innerHTML = recommendInnerHtml
+  }
+
+})(recommendData);
 
 $(document).ready(function() {
   // topbar 购物车
@@ -228,5 +253,36 @@ $(document).ready(function() {
     $(this).addClass('tab-active').siblings('li').removeClass('tab-active')
     let index = $(this).index()
     $(this).parents('.box-header').next().find('.span16 ul').eq(index).show().siblings('ul').hide()
+  })
+
+  // recommend 为你推荐 轮播图
+  $('.recommend .carousel-controls-direction').on('click', 'a', function() {
+    let direction = $(this).data('direction')
+    if (!$(this).hasClass('disabled')) {
+      let $recommend = $(this).parents('.recommend')
+      let $carouselList = $recommend.find('.carousel-list')
+      let total = $carouselList.find('li').length
+      let offset = parseInt($carouselList.width() / total) * 5
+      let limit = -($carouselList.width() - offset)
+      let oldMarginLeft = parseInt($carouselList.get(0).style.marginLeft || 0)
+
+      if (direction === 'prev') {
+        if (oldMarginLeft < 0) {
+          let newMarginLeft = oldMarginLeft + offset
+          $carouselList.css('margin-left', newMarginLeft + 'px')
+          if (newMarginLeft === 0) {
+            $(this).addClass('disabled').siblings('a').removeClass('disabled')
+          }
+        }
+      } else {
+        if (oldMarginLeft <= 0 && oldMarginLeft > limit) {
+          let newMarginLeft = oldMarginLeft - offset
+          $carouselList.css('margin-left', newMarginLeft + 'px')
+          if (newMarginLeft === limit) {
+            $(this).addClass('disabled').siblings('a').removeClass('disabled')
+          }
+        }
+      }
+    }
   })
 })
