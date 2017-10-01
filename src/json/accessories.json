@@ -1,0 +1,365 @@
+{
+  "accessories": {
+    "tabData": ["热门", "保护套", "贴膜", "其他配件"],
+    "leftData": [{
+      "size": "m",
+      "imgSrc": "images/accessories/xmad_15030416937964_eOuQp.jpg"
+    }, {
+      "size": "m",
+      "imgSrc": "images/accessories/xmad_15053023729301_vkfBo.jpg"
+    }],
+    "rightData": [
+      [{
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/accessories/hot/pms_1498547317.49155359.jpg",
+        "title": "小米6 超薄皮质保护套",
+        "desc": "",
+        "price": "39元",
+        "review": "套套到手了！就是还缺个小米6和一个女朋友！客服聊不聊？",
+        "author": "来自于 叫哥刺猬 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/accessories/hot/pms_1493261828.23444007.jpg",
+        "title": "小米6 硅胶保护套",
+        "desc": "",
+        "price": "49元",
+        "review": "蛮好……手感不错哦 里面也很好",
+        "author": "来自于 ღ结婚后 再改昵称 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/accessories/hot/pms_1493863398.71652587.jpg",
+        "title": "小米6 弧边高透膜",
+        "desc": "",
+        "price": "29元",
+        "flag": {
+          "text": "新品",
+          "class": "flag-new"
+        },
+        "review": "在车里贴的，一次成功，哈哈哈哈",
+        "author": "来自于 刘宁 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/accessories/hot/pms_1493284697.69911065.jpg",
+        "title": "小米6 标准高透贴膜",
+        "desc": "",
+        "price": "19元",
+        "flag": {
+          "text": "新品",
+          "class": "flag-new"
+        },
+        "review": "倒是有三张膜，就是贴不好。。。。",
+        "author": "来自于 泛泛 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/accessories/hot/pms_1499933945.42632851.jpg",
+        "title": "小米Max 2  智能翻盖支架保护套",
+        "desc": "",
+        "price": "59元",
+        "flag": {
+          "text": "新品",
+          "class": "flag-new"
+        },
+        "review": "手感很好，看看这大手机，老爹喜欢~~",
+        "author": "来自于 ¤危¤ 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/accessories/hot/pms_1488523016.01497956.jpg",
+        "title": "红米4X 天鹅绒质感保护壳",
+        "desc": "",
+        "price": "29元",
+        "review": "里面毛茸茸的，设计不错",
+        "author": "来自于 李秋咨 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/accessories/hot/pms_1493261514.03223754.jpg",
+        "title": "小米6 高透软胶保护套",
+        "desc": "",
+        "price": "19元",
+        "review": "还没打开，米6里面有赠送同款，我望着这个包装盒，无言...",
+        "author": "来自于 179079849 的评价"
+      }, {
+        "lastItem": false,
+        "size": "s",
+        "imgSrc": "images/accessories/hot/pms_1505212091.47916402.jpg",
+        "title": "小米Max 2  极简保护套",
+        "desc": "",
+        "price": "49元",
+        "review": "",
+        "author": ""
+      }, {
+        "lastItem": true,
+        "lastItemText": "热门",
+        "size": "s"
+      }],
+      [{
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/accessories/protect/pms_1493261830.47158342!220x220.jpg",
+        "title": "小米6 硅胶保护套",
+        "desc": "",
+        "price": "49元",
+        "review": "手机抢不到，想先买个套都缺货，手感不错，加绒保温效果...",
+        "author": "来自于 娃他爹 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/accessories/protect/pms_1486980879.11199962!220x220.jpg",
+        "title": "红米Note 4X 高透软胶保护套 透明",
+        "desc": "",
+        "price": "19元",
+        "review": "什么玩意儿啊，孔都错位了，失望了！",
+        "author": "来自于 刘军 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/accessories/protect/pms_1480580129.24255998!220x220.jpg",
+        "title": "小米Note  2 高透软胶保护套",
+        "desc": "",
+        "price": "9.9元",
+        "delPrice": "19元",
+        "flag": {
+          "text": "享6折",
+          "class": "flag-saleoff"
+        },
+        "review": "质感很好  细节很不错，里面有纹路  很不错的手机壳...",
+        "author": "来自于 小贝壳 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/accessories/protect/pms_1474888521.26868202!220x220.jpg",
+        "title": "小米5s Plus 智能翻盖保护套",
+        "desc": "",
+        "price": "49元",
+        "review": "质感挺好！就像摸着客服美眉的手一样！可惜手机还没有到呢",
+        "author": "来自于 就是看看 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/accessories/protect/pms_1474888072.78155129!220x220.jpg",
+        "title": "小米5s 智能立显点阵式保护套",
+        "desc": "",
+        "price": "49元",
+        "delPrice": "79元",
+        "flag": {
+          "text": "享7折",
+          "class": "flag-saleoff"
+        },
+        "review": "不错，一直支持小米",
+        "author": "来自于 912989288 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/accessories/protect/T1jWWjBsET1RXrhCrK!220x220.jpg",
+        "title": "小米Max 超薄肤感软胶保护套",
+        "desc": "",
+        "price": "29元",
+        "review": "超好用的，快递速度也是杠杠的，客服汉子过来撩你哦",
+        "author": "来自于 906842031 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/accessories/protect/pms_1478163840.49069197!220x220.jpg",
+        "title": "红米4高配版 超薄肤感软胶保护套",
+        "desc": "",
+        "price": "19元",
+        "review": "第一次差评",
+        "author": "来自于 李磊 的评价"
+      }, {
+        "lastItem": false,
+        "size": "s",
+        "imgSrc": "images/accessories/protect/pms_1472198624.61936711!220x220.jpg",
+        "title": "红米Note4 智能显示保护套",
+        "desc": "",
+        "price": "39元",
+        "review": "",
+        "author": ""
+      }, {
+        "lastItem": true,
+        "lastItemText": "保护套",
+        "size": "s"
+      }],
+      [{
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/accessories/pad-pasting/xmad_14987297093922_POaTU.jpg",
+        "title": "红米Note 4X 标准高透贴膜",
+        "desc": "",
+        "price": "9.9元",
+        "delPrice": "19元",
+        "flag": {
+          "text": "享6折",
+          "class": "flag-saleoff"
+        },
+        "review": "轻抚如柔荑，肤似兰凝脂，腰着流纨素，肩披绮罗衣。",
+        "author": "来自于 110613567 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/accessories/pad-pasting/T1SSJ_B4E_1RXrhCrK!220x220.jpg",
+        "title": "小米平板2 标准高透贴膜",
+        "desc": "",
+        "price": "29元",
+        "review": "我用的都小米我可算是小米粉丝了",
+        "author": "来自于 达人 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/accessories/pad-pasting/T1t2K_B4L_1RXrhCrK!220x220.jpg",
+        "title": "小米手机5 钢化玻璃贴膜",
+        "desc": "",
+        "price": "29元",
+        "review": "客服妹妹，不会贴膜怎么办，要不你帮大叔贴？？？",
+        "author": "来自于 高鹏 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/accessories/pad-pasting/pms_1482136335.88325212!220x220.jpg",
+        "title": "小米5s Plus 标准高透贴膜",
+        "desc": "",
+        "price": "9.9元",
+        "delPrice": "19元",
+        "flag": {
+          "text": "享6折",
+          "class": "flag-saleoff"
+        },
+        "review": "贴坏了一张另一种将就用，不专业呀",
+        "author": "来自于 李铁 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/accessories/pad-pasting/pms_1482136306.7944683!220x220.jpg",
+        "title": "小米5s 标准高透贴膜",
+        "desc": "",
+        "price": "19元",
+        "review": "你确定我的贴膜是配5s的吗\n最左边的小开孔确定是给呼...",
+        "author": "来自于 陽寳 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/accessories/pad-pasting/pms_1482136277.01722149!220x220.jpg",
+        "title": "红米4高配版 标准高透贴膜",
+        "desc": "",
+        "price": "19元",
+        "review": "客服妹子。买这么多。跟我走吧",
+        "author": "来自于 慕 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/accessories/pad-pasting/T1y7JQBbCT1RXrhCrK!220x220.jpg",
+        "title": "小米Max 标准高透贴膜",
+        "desc": "",
+        "price": "19元",
+        "review": "听说买小米会有女朋友，我一口气买了5个套餐，现在应付...",
+        "author": "来自于 ＫＥＥＰ′ 的评价"
+      }, {
+        "lastItem": false,
+        "size": "s",
+        "imgSrc": "images/accessories/pad-pasting/pms_1469787992.44385373!220x220.jpg",
+        "title": "红米Pro 标准高透贴膜",
+        "desc": "",
+        "price": "19元",
+        "review": "",
+        "author": ""
+      }, {
+        "lastItem": true,
+        "lastItemText": "贴膜",
+        "size": "s"
+      }],
+      [{
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/accessories/other/pms_1490702347.3628109!220x220.png",
+        "title": "悦米机械键盘",
+        "desc": "",
+        "price": "299元",
+        "review": "漂亮，跟电脑差不多宽，早就想买了，正好有816的优惠...",
+        "author": "来自于 小光 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/accessories/other/pms_1482221011.26064844!220x220.jpg",
+        "title": "小米指环支架 金色",
+        "desc": "",
+        "price": "19元",
+        "review": "19块买的的手机指环，真是大大超出我的想象！还送了几...",
+        "author": "来自于 staryan619 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/accessories/other/pms_1488437436.38237666!220x220.jpg",
+        "title": "小米USB-C电源适配器（45W）",
+        "desc": "",
+        "price": "94元",
+        "delPrice": "99元",
+        "review": "质量非常不错，给MI6充电没有异常发热迹象，而且颜值...",
+        "author": "来自于 1247487772 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/accessories/other/T11oW_B4dv1RXrhCrK!220x220.jpg",
+        "title": "蓝牙语音体感遥控器",
+        "desc": "",
+        "price": "99元",
+        "review": "不问你为何流眼泪…",
+        "author": "来自于 一休 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/accessories/other/pms_1488533926.06453673!220x220.jpg",
+        "title": "小米便携鼠标",
+        "desc": "",
+        "price": "94元",
+        "delPrice": "99元",
+        "flag": {
+          "text": "享9.5折",
+          "class": "flag-saleoff"
+        },
+        "review": "帅帅的鼠标，帅帅的笔记本，美美的老婆，帅帅的我",
+        "author": "来自于 yellow 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/accessories/other/pms_1469523170.25518983!220x220.jpg",
+        "title": "USB-C至HDMI多功能转接器",
+        "desc": "",
+        "price": "129元",
+        "delPrice": "149元",
+        "flag": {
+          "text": "享9折",
+          "class": "flag-saleoff"
+        },
+        "review": "配件质量过硬 细节方面尤为用心 把蓝色usb3.0 ...",
+        "author": "来自于 于绍凡 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/accessories/other/T1xLxQBgVT1RXrhCrK!220x220.jpg",
+        "title": "USB Type-C 转接头",
+        "desc": "",
+        "price": "5元",
+        "review": "5块钱买不了吃亏买不了上当，买个小米转换头来用，还是...",
+        "author": "来自于 琴悦 的评价"
+      }, {
+        "lastItem": false,
+        "size": "s",
+        "imgSrc": "images/accessories/other/pms_1480066629.77799920!220x220.jpg",
+        "title": "小米二合一数据线100cm",
+        "desc": "",
+        "price": "24.9元",
+        "review": "",
+        "author": ""
+      }, {
+        "lastItem": true,
+        "lastItemText": "其他配件",
+        "size": "s"
+      }]
+    ]
+  }
+}

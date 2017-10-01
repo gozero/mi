@@ -1,0 +1,364 @@
+{
+  "home-applications": {
+    "tabData": ["热门", "电视影音", "电脑", "家居"],
+    "leftData": [{
+      "size": "l",
+      "imgSrc": "images/home-applications/xmad_15045249192253_YbRuZ.jpg"
+    }],
+    "rightData": [
+      [{
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/home-applications/hot/pms_1500287084.72131750!220x220.jpg",
+        "title": " 小米电视4A 32\"",
+        "desc": "64位四核处理器／1GB+4GB大内存",
+        "price": "1099元",
+        "delPrice": "1199元",
+        "flag": {
+          "text": "享9.2折",
+          "class": "flag-saleoff"
+        },
+        "review": "电视犹如客服妹子让我好等，终午到了超级喜欢，客服妹子...",
+        "author": "来自于 自由自在 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/home-applications/hot/pms_1495074010.05677255!220x220.jpg",
+        "title": " 小米电视4 55英寸",
+        "desc": "4.9mm极超薄机身／4K高清HDR",
+        "price": "4499元",
+        "review": "质感令人惊叹…工艺非常不错，原以为太溥不敢放电视柜，...",
+        "author": "来自于 96684826 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/home-applications/hot/pms_1505106710.28498495!220x220.jpg",
+        "title": " 小米笔记本Pro 15.6英寸 ",
+        "desc": "全金属强化机身/FHD全贴合屏幕",
+        "price": "5599元",
+        "flag": {
+          "text": "新品",
+          "class": "flag-new"
+        },
+        "review": "人生中第一台笔记本电脑\n还是小米\n第一次给你了来首诗吧",
+        "author": "来自于 北京★路狼 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/home-applications/hot/pms_1499138177.54329452!220x220.jpg",
+        "title": " 小米笔记本Air 13.3\" i7处理器",
+        "desc": "Intel酷睿i7处理器，8GB内存+256GB",
+        "price": "5999元",
+        "review": "终于等来了贴纸，你能看出来这是苹果还是小米么！",
+        "author": "来自于 李阳 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/home-applications/hot/pms_1470288129.01686992!220x220.jpg",
+        "title": " 小米路由器3C",
+        "desc": "APP智能控制，安全防蹭网",
+        "price": "99元",
+        "flag": {
+          "text": "免邮费"
+        },
+        "review": "超帅气的外表 快递超快 没有一点点防备 就被送上了 ...",
+        "author": "来自于 659417029 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/home-applications/hot/pms_1492138590.26071212!220x220.jpg",
+        "title": " 米家插线板6位基础版",
+        "desc": "新国标1mm2线材更安全，3个USB充电口，多重保护",
+        "price": "79元",
+        "review": "漂亮，就跟客服mm一样，你说对么",
+        "author": "来自于 东子 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/home-applications/hot/pms_1504498936.11861982!220x220.jpg",
+        "title": " 米家电水壶",
+        "desc": "一杯水，是一家人的安心",
+        "price": "99元",
+        "flag": {
+          "text": "新品",
+          "class": "flag-new"
+        },
+        "review": "不错，价格相比有点贵，不过喜欢收藏小米的产品。",
+        "author": "来自于 1181533160 的评价"
+      }, {
+        "lastItem": false,
+        "size": "s",
+        "imgSrc": "images/home-applications/hot/pms_1468806372.46368911!220x220.jpg",
+        "title": "小白摄像机",
+        "desc": "",
+        "price": "399元",
+        "review": "",
+        "author": ""
+      }, {
+        "lastItem": true,
+        "lastItemText": "热门",
+        "size": "s"
+      }],
+      [{
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/home-applications/tv/pms_1495073969.01063180!220x220.jpg",
+        "title": " 小米电视4 49英寸",
+        "desc": "4.9mm 极超薄机身／无边框式设计",
+        "price": "3599元",
+        "review": "电视很好的，真4K的，播4K视频，连电脑都很清晰。",
+        "author": "来自于 刘爱军 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/home-applications/tv/pms_1503909300.25797209!220x220.png",
+        "title": " 小米电视4A 55\" 标准版",
+        "desc": "4K高清HDR / 真四核64位高性能处理器",
+        "price": "2699元",
+        "delPrice": "2999元",
+        "flag": {
+          "text": "享9折",
+          "class": "flag-saleoff"
+        },
+        "review": "我家的电视用了8年了，现在终于换了一个，小米电视酷毙...",
+        "author": "来自于 抽了那么多次，不爱了 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/home-applications/tv/pms_1490077569.08131612!220x220.png",
+        "title": " 小米电视4A 65\" 标准版",
+        "desc": "4K超高清屏／真四核64位高性能处理器",
+        "price": "4999元",
+        "review": "感觉55的小了，特意选了65的。。看起来还是有点小啊...",
+        "author": "来自于 半雨 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/home-applications/tv/pms_1490077454.46128587!220x220.png",
+        "title": " 小米电视4A 49\" 标准版",
+        "desc": " 2GB+8GB 大储存／全高清HDR",
+        "price": "2399元",
+        "review": "好好好好好好好好好好好好好好好好好好好好好好好好",
+        "author": "来自于 徐培舜 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/home-applications/tv/pms_1490778355.67093197!220x220.png",
+        "title": " 小米电视4A 55\" 语音版",
+        "desc": "杜比音效平板电视／海量高清片源",
+        "price": "3199元",
+        "review": "几年了，从小米手机1到现在小米6，一直拥护小米产品，...",
+        "author": "来自于 没钱也买米 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/home-applications/tv/pms_1495074053.84174465!220x220.jpg",
+        "title": " 小米电视4 65英寸",
+        "desc": "无边框式设计 / 3GB+32GB超大内存",
+        "price": "9999元",
+        "review": "",
+        "author": ""
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/home-applications/tv/pms_1479190789.95594557!220x220.jpg",
+        "title": " 小米盒子3s",
+        "desc": "4K HDR 人工智能机顶盒",
+        "price": "329元",
+        "review": "小米的产品还是一如既往好！听说客服妹子很会撩人，来撩...",
+        "author": "来自于 悟空 的评价"
+      }, {
+        "lastItem": false,
+        "size": "s",
+        "imgSrc": "images/home-applications/tv/xmad_14988107613863_SWjuV.jpg",
+        "title": "盒子3 增强版",
+        "desc": "",
+        "price": "399元",
+        "review": "",
+        "author": ""
+      }, {
+        "lastItem": true,
+        "lastItemText": "电视影音",
+        "size": "s"
+      }],
+      [{
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/home-applications/computer/pms_1499138177.54329452!220x220.jpg",
+        "title": " 小米笔记本Air 13.3\" i7处理器",
+        "desc": "Intel酷睿i7处理器，8GB内存+256GB",
+        "price": "5999元",
+        "review": "终于等来了贴纸，你能看出来这是苹果还是小米么！",
+        "author": "来自于 李阳 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/home-applications/computer/pms_1496997930.13622399!220x220.jpg",
+        "title": " 小米笔记本Air13.3英寸",
+        "desc": "第7代CPU 2G独显 指纹解锁",
+        "price": "5199元",
+        "review": "没什么可说的，漂亮，完美。感谢小米让我感受到科技带来...",
+        "author": "来自于 笔记本 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/home-applications/computer/pms_1469583247.6157588!220x220.jpg",
+        "title": " 小米笔记本Air 13.3英寸",
+        "desc": "Intel 酷睿i5 处理器 独立显卡",
+        "price": "4999元",
+        "review": "重要的事情说3遍 超爱 超爱 超爱客服妹子",
+        "author": "来自于 随遇而安 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/home-applications/computer/pms_1490604807.82792204!220x220.jpg",
+        "title": " 小米笔记本Air 12.5英寸",
+        "desc": "更轻更薄，像杂志一样随身携带",
+        "price": "3999元",
+        "review": "外形很漂亮，很流畅。。小米真的是一家很用心的公司。。...",
+        "author": "来自于 不忘初心。 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/home-applications/computer/pms_1490595812.95661863!220x220.png",
+        "title": " 小米无线鼠标",
+        "desc": "耐脏亲肤涂层，人体工学设计",
+        "price": "64元",
+        "delPrice": "69元",
+        "flag": {
+          "text": "享9.3折",
+          "class": "flag-saleoff"
+        },
+        "review": "我就想知道。。。这个灯。。是亮还是不亮。。。开关都没...",
+        "author": "来自于 当我不存在就好 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/home-applications/computer/pms_1478248566.62624407!220x220.jpg",
+        "title": " 小米便携鼠标",
+        "desc": "轻薄便携，铝合金外壳 +ABS 材质",
+        "price": "94元",
+        "delPrice": "99元",
+        "flag": {
+          "text": "享9.5折",
+          "class": "flag-saleoff"
+        },
+        "review": "像客服妹子一样漂亮！（说不定是个抠脚大汉）",
+        "author": "来自于 秋风 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/home-applications/computer/pms_1490702347.3628109!220x220.png",
+        "title": " 悦米机械键盘",
+        "desc": "铝合金机身，TTC红轴，87 键",
+        "price": "289元",
+        "review": "一元抽奖得到    蛮不错",
+        "author": "来自于 。。。。。 的评价"
+      }, {
+        "lastItem": false,
+        "size": "s",
+        "imgSrc": "images/home-applications/computer/pms_1469523170.25518983!220x220.jpg",
+        "title": "多功能转接器",
+        "desc": "",
+        "price": "129元",
+        "review": "",
+        "author": ""
+      }, {
+        "lastItem": true,
+        "lastItemText": "电脑",
+        "size": "s"
+      }],
+      [{
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/home-applications/home/pms_1465366178.11466342!220x220.jpg",
+        "title": " 米家恒温电水壶",
+        "desc": "水温智能控制，304 不锈钢内胆",
+        "price": "189元",
+        "delPrice": "199元",
+        "flag": {
+          "text": "享9.5折",
+          "class": "flag-saleoff"
+        },
+        "review": "外观设计的非常好，清洗很方便烧水也很快，支持小米产品...",
+        "author": "来自于 小五 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/home-applications/home/pms_1498564154.53184175!220x220.jpg",
+        "title": " 米家声波电动牙刷",
+        "desc": "磁悬浮声波马达，定制多种刷牙模式",
+        "price": "199元",
+        "flag": {
+          "text": "新品",
+          "class": "flag-new"
+        },
+        "review": "昨天上午买的，下午就到了，这速度杠杠的，买了两个，这...",
+        "author": "来自于 往昔成风 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/home-applications/home/T1sWd_B7VT1RXrhCrK!220x220.jpg",
+        "title": " 小米体重秤",
+        "desc": "100克，喝杯水都可感知的精准",
+        "price": "99元",
+        "review": "送给女票的生日礼物。客服妹子再来送首诗如何。",
+        "author": "来自于 任泽 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/home-applications/home/T1zBYgBCWv1RXrhCrK!220x220.jpg",
+        "title": " 小米空气净化器2",
+        "desc": "10分钟，房间空气焕然一新",
+        "price": "699元",
+        "review": "万水千山总是情，给你满分行不行？",
+        "author": "来自于 1117599502 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/home-applications/home/T1OVC_ByY_1RXrhCrK!220x220.jpg",
+        "title": " 米家压力IH电饭煲",
+        "desc": "智能烹饪，灰铸铁粉体涂层内胆",
+        "price": "999元",
+        "review": "米年货节活动的时候买的超值，赞一个。不知客服妹纸有这...",
+        "author": "来自于 Music补丁 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/home-applications/home/pms_1496647119.81414190!220x220.jpg",
+        "title": " 飞利浦智睿球泡灯",
+        "desc": "自由调节亮度，Wi-Fi随时操控",
+        "price": "49元",
+        "review": "很赞的灯泡，光源品质很高，色彩舒服、亮度足够，可以调...",
+        "author": "来自于 孔敏 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/home-applications/home/pms_1495520422.36514041!220x220.jpg",
+        "title": " 米家 LED 智能台灯",
+        "desc": "无可视频闪，四种场景优化调光",
+        "price": "159元",
+        "delPrice": "169元",
+        "flag": {
+          "text": "享9.5折",
+          "class": "flag-saleoff"
+        },
+        "review": "简洁，明亮，时尚，大气，科技，还能用什么词语来形容！...",
+        "author": "来自于 99513448 的评价"
+      }, {
+        "lastItem": false,
+        "size": "s",
+        "imgSrc": "images/home-applications/home/pms_1490756071.3088664!220x220.png",
+        "title": "Yeelight LED 吸顶灯",
+        "desc": "",
+        "price": "379元",
+        "review": "",
+        "author": ""
+      }, {
+        "lastItem": true,
+        "lastItemText": "家居",
+        "size": "s"
+      }]
+    ]
+  }
+}

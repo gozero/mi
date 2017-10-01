@@ -1,0 +1,358 @@
+{
+  "collocation": {
+    "tabData": ["热门", "耳机音箱", "电源", "电池存储卡"],
+    "leftData": [{
+      "size": "m",
+      "imgSrc": "images/collocation/xmad_15051240836976_FtlUq.jpg"
+    }, {
+      "size": "m",
+      "imgSrc": "images/collocation/xmad_15034816547397_TKBOF.jpg"
+    }],
+    "rightData": [
+      [{
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/collocation/hot/pms_1476688190.21955893.jpg",
+        "title": "10000mAh小米移动电源2",
+        "desc": "",
+        "price": "79元",
+        "review": "充电快，容量大，我的手机能充3次满电。",
+        "author": "来自于 小白 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/collocation/hot/pms_1482321212.47485716.jpg",
+        "title": "小米活塞耳机 清新版",
+        "desc": "",
+        "price": "29元",
+        "review": "我就喜欢小米耳塞，音质没得说，杠杠滴…",
+        "author": "来自于 建 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/collocation/hot/pms_1481269289.59498154.jpg",
+        "title": "小米移动电源10000mAh高配版",
+        "desc": "",
+        "price": "149元",
+        "review": "特意为亮蓝陶瓷尊享版米6买的，评价我只打四星，之所以...",
+        "author": "来自于 随&缘 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/collocation/hot/pms_1476674302.67179007.jpg",
+        "title": "小米运动蓝牙耳机",
+        "desc": "",
+        "price": "129元",
+        "delPrice": "149元",
+        "flag": {
+          "text": "享9折",
+          "class": "flag-saleoff"
+        },
+        "review": "戴上这副耳机能约到妹纸吗？",
+        "author": "来自于 未命名_ 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/collocation/hot/pms_1502093110.00979492.jpg",
+        "title": "小米运动蓝牙耳机mini",
+        "desc": "",
+        "price": "169元",
+        "flag": {
+          "text": "新品",
+          "class": "flag-new"
+        },
+        "review": "不错，音质也不错，感觉就k t v一样。",
+        "author": "来自于 孟凡双 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/collocation/hot/pms_1492587658.23552969.jpg",
+        "title": "小米降噪耳机Type-C版",
+        "desc": "",
+        "price": "279元",
+        "delPrice": "299元",
+        "flag": {
+          "text": "享9.4折",
+          "class": "flag-saleoff"
+        },
+        "review": "包装的很好，第一次用降噪耳机，开启后，全世界都安静了。",
+        "author": "来自于 容我来打一炮 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/collocation/hot/pms_1499161620.42031583.jpg",
+        "title": "小米蓝牙音频接收器",
+        "desc": "",
+        "price": "99元",
+        "review": "带线控，语音通话功能！试了书桌音箱后音质满意！再试试...",
+        "author": "来自于 叶穗荣 的评价"
+      }, {
+        "lastItem": false,
+        "size": "s",
+        "imgSrc": "images/collocation/hot/T1FVDQBbET1RXrhCrK.jpg",
+        "title": "小米胶囊耳机",
+        "desc": "",
+        "price": "69元",
+        "review": "",
+        "author": ""
+      }, {
+        "lastItem": true,
+        "lastItemText": "热门",
+        "size": "s"
+      }],
+      [{
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/collocation/headphone-and-soundbox/pms_1482301662.61336109!220x220.jpg",
+        "title": "小米头戴式耳机 轻松版",
+        "desc": "",
+        "price": "189元",
+        "delPrice": "199元",
+        "flag": {
+          "text": "享9.5折",
+          "class": "flag-saleoff"
+        },
+        "review": "我第一个全新的小米产品，性价比超高，做工精细，帮小米...",
+        "author": "来自于 1076033972 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/collocation/headphone-and-soundbox/T1SkV_BCd_1RXrhCrK!220x220.jpg",
+        "title": "小米胶囊耳机",
+        "desc": "",
+        "price": "69元",
+        "review": "哎呀，差评差评，双十一物流还那么快，简直控制不住寄几...",
+        "author": "来自于 隔夜的温柔 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/collocation/headphone-and-soundbox/302f2608-655a-489c-a0c5-a3b9172defd1.png",
+        "title": "小米圈铁耳机Pro",
+        "desc": "",
+        "price": "149元",
+        "review": "不错。相信小米品质。都说调戏客服会有回复。我试试",
+        "author": "来自于 杨本强 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/collocation/headphone-and-soundbox/T1LqYgBCWv1RXrhCrK!220x220.jpg",
+        "title": "小米随身蓝牙音箱",
+        "desc": "",
+        "price": "69元",
+        "review": "听说评价会有客服妹子送？",
+        "author": "来自于 朱棒 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/collocation/headphone-and-soundbox/T1Tfd_BjAv1RXrhCrK!220x220.jpg",
+        "title": "小米小钢炮蓝牙音箱2",
+        "desc": "",
+        "price": "129元",
+        "review": "嘿嘿  ~~嘿呦嘿呦嘿，别人撩妹我干啥，客服妹子咋回...",
+        "author": "来自于 Los 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/collocation/headphone-and-soundbox/pms_1504840066.82385016!220x220.jpg",
+        "title": "1MORE好声音入耳式耳机 金色",
+        "desc": "",
+        "price": "129元",
+        "flag": {
+          "text": "新品",
+          "class": "flag-new"
+        },
+        "review": "失恋了，买个耳机陶醉，但是耳机的音效让我又有了重新面...",
+        "author": "来自于 小史 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/collocation/headphone-and-soundbox/pms_1470619266.15986000!220x220.jpg",
+        "title": "小米米兔音箱",
+        "desc": "",
+        "price": "99元",
+        "review": "客服妹子有这么萌吗",
+        "author": "来自于 宿與掵哊關 的评价"
+      }, {
+        "lastItem": false,
+        "size": "s",
+        "imgSrc": "images/collocation/headphone-and-soundbox/T1MDK_B_YT1RXrhCrK!220x220.jpg",
+        "title": "小米蓝牙音箱",
+        "desc": "",
+        "price": "199元",
+        "review": "",
+        "author": ""
+      }, {
+        "lastItem": true,
+        "lastItemText": "耳机音箱",
+        "size": "s"
+      }],
+      [{
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/collocation/power/pms_1481273468.72564539!220x220.jpg",
+        "title": "小米移动电源10000mAh高配版",
+        "desc": "",
+        "price": "149元",
+        "review": "还没使用，希望棒棒哒",
+        "author": "来自于 花是爱 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/collocation/power/pms_1505264799.43246303!220x220.jpg",
+        "title": "小米移动电源2C 20000mAh",
+        "desc": "",
+        "price": "129元",
+        "flag": {
+          "text": "新品",
+          "class": "flag-new"
+        },
+        "review": "一下子买四个，再也不怕长途跋涉了。哈哈……",
+        "author": "来自于 陈定坤 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/collocation/power/T1pZbvBTET1RXrhCrK!220x220.jpg",
+        "title": "小米移动电源5000mAh",
+        "desc": "",
+        "price": "49元",
+        "review": "炒鸡喜欢，又薄，电量一天又完全足够，就是冬天握着有点...",
+        "author": "来自于 蒋明亮 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/collocation/power/pms_1505264799.43246303!220x220.jpg",
+        "title": "小米移动电源2C 20000mAh",
+        "desc": "",
+        "price": "129元",
+        "flag": {
+          "text": "新品",
+          "class": "flag-new"
+        },
+        "review": "一下子买四个，再也不怕长途跋涉了。哈哈……",
+        "author": "来自于 陈定坤 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/collocation/power/pms_1476688190.21955893!220x220.jpg",
+        "title": "10000mAh小米移动电源2",
+        "desc": "",
+        "price": "79元",
+        "review": "一直都相信小米的品质，杠杠的，之前有一个小米移动电源...",
+        "author": "来自于 Rex 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/collocation/power/pms_1478070969.5786053!220x220.jpg",
+        "title": "小米二合一数据线",
+        "desc": "",
+        "price": "19.9元",
+        "review": "大王给配了这个插头就可以带着小米5 带着充电宝去巡山...",
+        "author": "来自于 王磊 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/collocation/power/pms_1469410847.29693876!220x220.jpg",
+        "title": "USB Type-C充电套装",
+        "desc": "",
+        "price": "15元",
+        "review": "",
+        "author": ""
+      }, {
+        "lastItem": false,
+        "size": "s",
+        "imgSrc": "images/collocation/power/T13mDQBjCT1RXrhCrK.jpg",
+        "title": "小米智能插线板",
+        "desc": "",
+        "price": "69元",
+        "review": "",
+        "author": ""
+      }, {
+        "lastItem": true,
+        "lastItemText": "电源",
+        "size": "s"
+      }],
+      [{
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/collocation/battery-and-storagecard/pms_1481098212.65597197!220x220.jpg",
+        "title": "ROIDMI音乐蓝牙车充",
+        "desc": "",
+        "price": "99元",
+        "review": "棒到无法形容，让没有蓝牙的车有了无线播放功能，就信任...",
+        "author": "来自于 水寒 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/collocation/battery-and-storagecard/pms_1484034162.02747540!220x220.jpg",
+        "title": "小米USB充电器（2口）",
+        "desc": "",
+        "price": "49元",
+        "review": "挺不错的，充电好快，已经是小米的忠诚粉，听说可以调戏...",
+        "author": "来自于 冰倩 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/collocation/battery-and-storagecard/T1xxVTBghv1RXrhCrK!220x220.jpg",
+        "title": "彩虹5号电池（10粒装）",
+        "desc": "",
+        "price": "9.9元",
+        "review": "小米电池太惊艳了，很漂亮，值得买。",
+        "author": "来自于 MR.ZHAO 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/collocation/battery-and-storagecard/pms_1492658221.34618453!220x220.jpg",
+        "title": "睿米一分二点烟器",
+        "desc": "",
+        "price": "79元",
+        "review": "车载蓝牙充电器的娘子来了",
+        "author": "来自于 珅庆 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/collocation/battery-and-storagecard/T1vFEjBbWT1RXrhCrK!220x220.jpg",
+        "title": "小米USB充电器（4口）",
+        "desc": "",
+        "price": "69元",
+        "review": "外观质感都不错！很喜欢",
+        "author": "来自于 罪因 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/collocation/battery-and-storagecard/pms_1490163713.86453564!220x220.png",
+        "title": "SanDisk 32GB存储卡",
+        "desc": "",
+        "price": "89元",
+        "delPrice": "98元",
+        "flag": {
+          "text": "享9.1折",
+          "class": "flag-saleoff"
+        },
+        "review": "装到记录仪上了，用了几天才评价很好用，用手机看很清晰...",
+        "author": "来自于 张鹏 的评价"
+      }, {
+        "lastItem": false,
+        "size": "m",
+        "imgSrc": "images/collocation/battery-and-storagecard/T142A_BXEv1RXrhCrK!220x220.jpg",
+        "title": "小米车载充电器",
+        "desc": "",
+        "price": "49元",
+        "review": "做工如此精湛，感觉人民币在升值啊。",
+        "author": "来自于 mx 的评价"
+      }, {
+        "lastItem": false,
+        "size": "s",
+        "imgSrc": "images/collocation/battery-and-storagecard/pms_1490165991.05655005!220x220.png",
+        "title": "SanDisk 16GB存储卡",
+        "desc": "",
+        "price": "44.9元",
+        "review": "",
+        "author": ""
+      }, {
+        "lastItem": true,
+        "lastItemText": "电池存储卡",
+        "size": "s"
+      }]
+    ]
+  }
+}
