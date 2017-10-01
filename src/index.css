@@ -1756,5 +1756,144 @@ body {
 
 
 /*
+** page-main video 开始
+*/
+
+.page-main .video {
+    margin-bottom: 60px;
+}
+
+.page-main .video .more {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.page-main .video .more .link {
+    color: #424242;
+    font-size: 16px;
+    line-height: 58px;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+
+.page-main .video .more .link:hover {
+    color: #ff6700;
+}
+
+.page-main .video .more .link i {
+    width: 12px;
+    height: 12px;
+    padding: 4px;
+    margin-left: 8px;
+    border-radius: 16px;
+    font-size: 12px;
+    line-height: 12px;
+    background: #b0b0b0;
+    color: #fff;
+    vertical-align: 1px;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+
+.page-main .video .more .link:hover i {
+    background-color: #ff6700;
+}
+
+.page-main .video .video-list {
+    width: 1240px;
+    height: 285px;
+}
+
+.page-main .video .video-list .video-item {
+    position: relative;
+    float: left;
+    width: 296px;
+    height: 285px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    text-align: center;
+    background: #fff;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.page-main .video .video-list .video-item:hover {
+    z-index: 10;
+    -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    -webkit-transform: translate3d(0, -2px, 0);
+    transform: translate3d(0, -2px, 0);
+}
+
+.page-main .video .video-list .video-item:first-child {
+    margin-left: 0;
+}
+
+.page-main .video-item .video-img {
+    position: relative;
+    width: 296px;
+    height: 180px;
+    margin: 0 0 28px;
+}
+
+.page-main .video-item .video-img:hover .play {
+    background-color: #ff6700;
+    border-color: #ff6700;
+}
+
+.page-main .video-item .video-img a {
+    display: block;
+    width: 296px;
+    height: 180px;
+}
+
+.page-main .video-item .video-img a img {
+    width: 296px;
+    height: 180px;
+}
+
+.page-main .video-item .video-img .play {
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    width: 32px;
+    height: 20px;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    overflow: hidden;
+}
+
+.page-main .video-item .video-img .play .iconfont {
+    font-size: 30px;
+    line-height: 20px;
+}
+
+.page-main .video-item .title {
+    margin: 0 0 6px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #333;
+}
+
+.page-main .video-item .desc {
+    height: 18px;
+    margin: 0;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+
+/*
+** page-main video 结束
+*/
+
+
+/*
 ** page-main 结束
 */
