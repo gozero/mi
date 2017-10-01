@@ -1897,3 +1897,122 @@ body {
 /*
 ** page-main 结束
 */
+
+
+/*
+** footer 开始
+*/
+
+.footer {
+    height: 272px;
+}
+
+.footer .footer-info {
+    padding: 27px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.footer .footer-info .info-item {
+    float: left;
+    width: 19.8%;
+    height: 25px;
+    border-left: 1px solid #e0e0e0;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.footer .footer-info .info-item:first-child {
+    border-left: 0;
+}
+
+.footer .footer-info .info-item a {
+    color: #616161;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+}
+
+.footer .footer-info .info-item a:hover {
+    color: #ff6700;
+}
+
+.footer .footer-info .info-item a i {
+    margin-right: 6px;
+    font-size: 24px;
+    line-height: 24px;
+    vertical-align: -4px;
+}
+
+.footer .footer-link {
+    padding: 40px 0;
+}
+
+.footer .footer-link .link-list {
+    float: left;
+    width: 160px;
+    height: 112px;
+    margin: 0;
+}
+
+.footer .footer-link .link-list dt {
+    margin: -1px 0 26px;
+    font-size: 14px;
+    line-height: 1.25;
+    color: #424242;
+}
+
+.footer .footer-link .link-list dd {
+    margin: 10px 0 0;
+    color: #757575;
+    font-size: 12px;
+}
+
+.footer .footer-link .link-list dd a:hover {
+    color: #ff6700;
+}
+
+.footer .footer-link .contact {
+    float: right;
+    width: 251px;
+    height: 112px;
+    border-left: 1px solid #e0e0e0;
+    text-align: center;
+    color: #616161;
+}
+
+.footer .footer-link .contact .mobile {
+    margin: 0 0 5px;
+    font-size: 22px;
+    line-height: 1;
+    color: #ff6700;
+}
+
+.footer .footer-link .contact .time {
+    margin: 0 0 16px;
+    font-size: 12px;
+}
+
+.footer .footer-link .contact .btn {
+    display: inline-block;
+    width: 118px;
+    height: 28px;
+    color: #ff6700;
+    border: 1px solid #ff6700;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+    background: #fff;
+    cursor: pointer;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+
+.footer .footer-link .contact .btn:hover {
+    color: #fff;
+    background-color: #ff6700;
+}
+
+
+/*
+** footer 结束
+*/
