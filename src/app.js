@@ -1,3 +1,6 @@
+import './common.css'
+import './index.css'
+
 $(document).ready(function() {
     // topbar 购物车
     $('.topbar .topbar-cart').hover(function() {
