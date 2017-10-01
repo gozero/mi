@@ -285,4 +285,43 @@ $(document).ready(function() {
       }
     }
   })
+
+  // page-main content卡片内容轮播图，左右箭头点击事件
+  $('.content-carousel-control').on('click', 'a', function(event) {
+    var isLeft = event.target.className.indexOf('left') !== -1 ? true : false
+    var $contentItem = $(this).parents('.content-item')
+    var $pagers = $contentItem.find('.content-pagers-wrapper .pagers')
+    var activeLi = $pagers.find('li.pager-active')
+    var index = activeLi.index()
+    var length = $pagers.children('li').length
+    var $contentItemList = $contentItem.find('ul.content-item-list')
+    var width = 296
+    if (length > 1) {
+      if (isLeft) {
+        if (index > 0 && index < length) {
+          $contentItemList.css('left', '+=' + width)
+          activeLi.removeClass('pager-active').prev().addClass('pager-active')
+        }
+      } else {
+        if (index < length - 1) {
+          $contentItemList.css('left', '-=' + width)
+          activeLi.removeClass('pager-active').next().addClass('pager-active')
+        }
+      }
+    }
+  })
+
+  // page-main content卡片内容轮播图，小圆点点击事件
+  $('.content-pagers-wrapper .pagers').on('click', 'span', function() {
+    let targetLi = $(this).parent()
+    if (!targetLi.hasClass('pager-active')) {
+      let num = parseInt($(this).text()) - 1
+      let $contentItem = $(this).parents('.content-item')
+      let $contentItemList = $contentItem.find('ul.content-item-list')
+      let width = 296
+      $contentItemList.css('left', -width * num)
+      targetLi.addClass('pager-active').siblings().removeClass('pager-active')
+    }
+  })
+
 })
