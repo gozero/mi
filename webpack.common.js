@@ -93,6 +93,7 @@ module.exports = {
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
       title: 'Mi',
+      favicon: './src/favicon.ico',
       filename: 'index.html',
       template: 'src/template.html'
     }),
