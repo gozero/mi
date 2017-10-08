@@ -18,14 +18,15 @@ const extractSass = new ExtractTextPlugin({
 
 
 module.exports = {
-  entry: {
-    app: './src/app.js',
-    vendor: [
-      'jquery'
-    ],
-    polyfill: 'babel-polyfill'
+  // entry: {
+  //   app: './src/app.js',
+  //   vendor: [
+  //     'jquery'
+  //   ],
+  //   polyfill: 'babel-polyfill'
 
-  },
+  // },
+  // entry: ['babel-polyfill', 'jquery', './src/app.js'],
   devServer: {
     contentBase: './dist',
     // hot: true
@@ -97,12 +98,12 @@ module.exports = {
     }),
     new webpack.HashedModuleIdsPlugin(),
     // new webpack.HotModuleReplacementPlugin(), // 在开启服务器环境中出现chunkhash的bug
-    new webpack.optimize.CommonsChunkPlugin({
-      name: ['vendor']
-    }), // CommonsChunkPlugin 的 'vendor' 实例，必须在 'runtime' 实例之前引入
-    new webpack.optimize.CommonsChunkPlugin({
-      name: 'runtime'
-    }),
+    // new webpack.optimize.CommonsChunkPlugin({
+    //   name: ['vendor']
+    // }), // CommonsChunkPlugin 的 'vendor' 实例，必须在 'runtime' 实例之前引入
+    // new webpack.optimize.CommonsChunkPlugin({
+    //   name: 'runtime'
+    // }),
     new CopyWebpackPlugin([{
       from: 'src/images/',
       to: path.resolve(__dirname, 'dist/images')
