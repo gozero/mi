@@ -10,9 +10,7 @@ import recommendData from './json/recommend.json'
   const idArr = Object.keys(data)
   for (let z = 0; z < idArr.length; z++) {
     const id = idArr[z]
-    const tabData = data[idArr[z]].tabData
-    const leftData = data[idArr[z]].leftData
-    const rightData = data[idArr[z]].rightData
+    const [tabData, leftData, rightData] = [data[id].tabData, data[id].leftData, data[id].rightData]
     const ulLength = rightData.length
     let leftContent = ''
     let leftContentArr = []
@@ -137,28 +135,28 @@ import recommendData from './json/recommend.json'
 
 $(document).ready(function() {
   // topbar 购物车
-  $('.topbar .topbar-cart').hover(function() {
+  $('#topbar-cart').hover(function() {
     $(this).addClass('topbar-cart-active').find('.cart-menu').slideDown(200)
   }, function() {
     $(this).removeClass('topbar-cart-active').find('.cart-menu').slideUp(200)
   })
 
   // header 导航二级菜单
-  $('.header-nav .nav-item').hover(function() {
+  $('#header-nav .nav-item').hover(function() {
     $(this).find('.header-nav-menu').show().addClass('header-nav-menu-active').find('ul').show()
   }, function() {
     $(this).find('.header-nav-menu').removeClass('header-nav-menu-active').hide().find('ul').hide()
   })
 
   // header category 商品导航
-  $('.header .category-item').hover(function() {
+  $('#header .category-item').hover(function() {
     $(this).find('.category-detail').show()
   }, function() {
     $(this).find('.category-detail').hide()
   })
 
   // header 搜索框
-  $('.header .search-form .search-text').focus(function() {
+  $('#header-search .search-text').focus(function() {
     $(this).css('border-color', '#ff6700').next().css('border-color', '#ff6700').next().fadeOut(200).next().slideDown(200)
   }).blur(function() {
     $(this).css('border-color', '#e0e0e0').next().css('border-color', '#e0e0e0').next().fadeIn(200).next().slideUp(200)
@@ -166,7 +164,7 @@ $(document).ready(function() {
 
   // home-container 轮播图, 定时器
   let carouselTimer = setInterval(function() {
-    const $homeGoodsSlider = $('.home-container .home-goods-slider')
+    const $homeGoodsSlider = $('#home-goods-slider')
     const $slideItems = $homeGoodsSlider.find('.carousel-viewport .slide-item')
     const $pagerItems = $homeGoodsSlider.find('.carousel-controls-pager .pager-item')
     const activatedIndex = $homeGoodsSlider.find('.carousel-viewport .slide-item-active').index()
@@ -181,10 +179,10 @@ $(document).ready(function() {
   }, 3000)
 
   // home-container 轮播图, 左右箭头点击事件
-  $('.home-container .home-goods-slider .carousel-controls-direction').on('click', 'a', function(event) {
+  $('#home-goods-slider .carousel-controls-direction').on('click', 'a', function(event) {
     clearInterval(carouselTimer)
-    const direction = $(this).attr('class')
-    const $homeGoodsSlider = $(this).parents('.home-goods-slider')
+    const direction = $(this).data('direction')
+    const $homeGoodsSlider = $(this).parents('#home-goods-slider')
     const $slideItems = $homeGoodsSlider.find('.carousel-viewport .slide-item')
     const $activatedItem = $homeGoodsSlider.find('.carousel-viewport .slide-item-active')
     let $siblingItem = undefined
@@ -205,7 +203,7 @@ $(document).ready(function() {
   })
 
   // home-container 轮播图, 小圆点点击事件
-  $('.home-container .home-goods-slider .carousel-controls-pager').on('click', 'a', function(event) {
+  $('#home-goods-slider .carousel-controls-pager').on('click', 'a', function(event) {
     if (!$(this).hasClass('pager-item-active')) {
       clearInterval(carouselTimer)
       let index = $(this).data('index')
@@ -216,28 +214,29 @@ $(document).ready(function() {
 
   // home-container 明星单品 轮播图 定时器
   let startGoodsTimerFn = function() {
-    const $startGoodsDirection = $('.home-container .home-star-goods .carousel-controls-direction')
+    const $startGoods = $('#home-star-goods')
+    const $startGoodsDirection = $startGoods.find('.carousel-controls-direction')
     const direction = $startGoodsDirection.find('.disabled').data('direction')
     $startGoodsDirection.find('.disabled').removeClass('disabled').siblings('a').addClass('disabled')
     if (direction === 'prev') {
-      $startGoodsDirection.parents('.home-star-goods').find('.carousel-list').css('margin-left', '0px')
+      $startGoods.find('.carousel-list').css('margin-left', '0px')
     } else {
-      $startGoodsDirection.parents('.home-star-goods').find('.carousel-list').css('margin-left', '-1240px')
+      $startGoods.find('.carousel-list').css('margin-left', '-1240px')
     }
   }
   let startGoodsTimer = setInterval(startGoodsTimerFn, 4000)
 
-  $('.home-container .home-star-goods .carousel-controls-direction').hover(function() {
+  $('#home-star-goods .carousel-controls-direction').hover(function() {
     clearInterval(startGoodsTimer)
   }, function() {
     startGoodsTimer = setInterval(startGoodsTimerFn, 4000)
   })
 
   // home-container 明星单品 轮播图
-  $('.home-container .home-star-goods .carousel-controls-direction').on('click', 'a', function() {
+  $('#home-star-goods .carousel-controls-direction').on('click', 'a', function() {
     const direction = $(this).data('direction')
     if (!$(this).hasClass('disabled')) {
-      const $homeStarGoods = $(this).parents('.home-star-goods')
+      const $homeStarGoods = $(this).parents('#home-star-goods')
       $(this).addClass('disabled').siblings('a').removeClass('disabled')
       if (direction === 'prev') {
         $homeStarGoods.find('.carousel-list').css('margin-left', '0px')
@@ -255,10 +254,10 @@ $(document).ready(function() {
   })
 
   // recommend 为你推荐 轮播图
-  $('.recommend .carousel-controls-direction').on('click', 'a', function() {
+  $('#recommend .carousel-controls-direction').on('click', 'a', function() {
     const direction = $(this).data('direction')
     if (!$(this).hasClass('disabled')) {
-      const $recommend = $(this).parents('.recommend')
+      const $recommend = $(this).parents('#recommend')
       const $carouselList = $recommend.find('.carousel-list')
       const total = $carouselList.find('li').length
       const offset = parseInt($carouselList.width() / total) * 5
@@ -286,12 +285,12 @@ $(document).ready(function() {
   })
 
   // page-main content卡片内容轮播图，左右箭头点击事件
-  $('.content-carousel-control').on('click', 'a', function(event) {
+  $('#content .content-carousel-control').on('click', 'a', function(event) {
     const isLeft = event.target.className.indexOf('left') !== -1 ? true : false
     const $contentItem = $(this).parents('.content-item')
     const $pagers = $contentItem.find('.content-pagers-wrapper .pagers')
-    const activeLi = $pagers.find('li.pager-active')
-    const index = activeLi.index()
+    const $activeLi = $pagers.find('li.pager-active')
+    const index = $activeLi.index()
     const length = $pagers.children('li').length
     const $contentItemList = $contentItem.find('ul.content-item-list')
     const width = 296
@@ -302,27 +301,27 @@ $(document).ready(function() {
       if (index > 0 && index < length) {
         const oldLeft = parseInt($contentItemList.get(0).style.left || 0)
         $contentItemList.css('left', oldLeft + width + 'px')
-        activeLi.removeClass('pager-active').prev().addClass('pager-active')
+        $activeLi.removeClass('pager-active').prev().addClass('pager-active')
       }
     } else {
       if (index < length - 1) {
         const oldLeft = parseInt($contentItemList.get(0).style.left || 0)
         $contentItemList.css('left', oldLeft - width + 'px')
-        activeLi.removeClass('pager-active').next().addClass('pager-active')
+        $activeLi.removeClass('pager-active').next().addClass('pager-active')
       }
     }
   })
 
   // page-main content卡片内容轮播图，小圆点点击事件
-  $('.content-pagers-wrapper .pagers').on('click', 'span', function() {
-    const targetLi = $(this).parent()
-    if (!targetLi.hasClass('pager-active')) {
+  $('#content .content-pagers-wrapper .pagers').on('click', 'span', function() {
+    const $targetLi = $(this).parent()
+    if (!$targetLi.hasClass('pager-active')) {
       const num = parseInt($(this).text()) - 1
       const $contentItem = $(this).parents('.content-item')
       const $contentItemList = $contentItem.find('ul.content-item-list')
       const width = 296
-      $contentItemList.css('left', -width * num)
-      targetLi.addClass('pager-active').siblings().removeClass('pager-active')
+      $contentItemList.css('left', (-width * num) + 'px')
+      $targetLi.addClass('pager-active').siblings().removeClass('pager-active')
     }
   })
 
